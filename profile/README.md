@@ -8,7 +8,7 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/ej33c5N9s)
 
 **lerd-env** is the home for Lerd's community and distribution repos. The main
-project lives at **[geodro/lerd](https://github.com/geodro/lerd)**; the repos
+project lives at **[lerd-env/lerd](https://github.com/lerd-env/lerd)**; the repos
 here are the pieces that let Lerd grow and ship without a binary release.
 
 `lerd link` and your project is live at `project.test` with HTTPS. No Docker, no
@@ -27,7 +27,7 @@ curl -fsSL https://lerd.sh/install.sh | bash
 - **[lerd-nixos](https://github.com/lerd-env/lerd-nixos)**, the NixOS flake.
   Packages the binary and ships the `configuration.nix` blocks the stack needs
   to run Lerd declaratively.
-- **[geodro/lerd](https://github.com/geodro/lerd)**, the main project: the CLI,
+- **[lerd-env/lerd](https://github.com/lerd-env/lerd)**, the main project: the CLI,
   the Web UI, the MCP server, and everything else.
 
 ## Why Lerd
