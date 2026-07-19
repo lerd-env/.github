@@ -51,6 +51,9 @@ PHP framework.
 
 - **[lerd](https://github.com/lerd-env/lerd)**, the main project: the CLI, the Web
   UI, the MCP server, and everything else.
+- **[lerd-desktop](https://github.com/lerd-env/lerd-desktop)**, the desktop app: a
+  native window around the dashboard with native desktop notifications, shipped as
+  a Flatpak, pairing with Lerd running on your machine.
 - **[frameworks](https://github.com/lerd-env/frameworks)**, the community framework
   store. Every `lerd link` pulls a matching definition from here, so a new PHP
   framework gains full support by editing YAML, no Lerd release required.
