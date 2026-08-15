@@ -54,6 +54,10 @@ PHP framework.
 - **[lerd-desktop](https://github.com/lerd-env/lerd-desktop)**, the desktop app: a
   native window around the dashboard with native desktop notifications, shipped as
   a Flatpak, pairing with Lerd running on your machine.
+- **[lerd-omarchy-glance](https://github.com/lerd-env/lerd-omarchy-glance)**, the
+  Omarchy bar widget: sites, services, workers and container resources in the Quattro
+  bar, quiet until something breaks, so the state of the environment is on screen
+  without opening a tab.
 - **[frameworks](https://github.com/lerd-env/frameworks)**, the community framework
   store. Every `lerd link` pulls a matching definition from here, so a new PHP
   framework gains full support by editing YAML, no Lerd release required.
