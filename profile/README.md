@@ -40,7 +40,14 @@ PHP framework.
 - 🛰️ **Debug window** that streams every `dump()` and `dd()` to the dashboard, plus SQL with N+1 and slow-query detection, mail, jobs, events, and outgoing HTTP, on Laravel and Symfony
 - 🔥 **SPX profiler** — one click turns every request into a flame graph, no FPM restart and no code changes
 - 🩺 **Site doctor** with framework-agnostic health checks and one-click fixes, in the UI, the TUI, the CLI, and MCP
+- 📈 **Request timing** that charts response times and the slowest routes from your site's own traffic, with a click to profile the route that stands out
+- 🐚 **Tinker in the browser**, a REPL against your running application, and a terminal dashboard for everything you would rather not leave the shell for
 - 🗄️ **One-click services**: MySQL, PostgreSQL, Redis, Meilisearch, Mailpit, and more, each a versioned YAML preset you can update, migrate, or reset in place
+- 💾 **Databases you can hand around**: export, import, and snapshots you can roll back to, next to bucket and mail management in the same dashboard
+- ⚡ **Native runtime on macOS**, where PHP-FPM, the CLI and the workers run on the host instead of crossing the VM boundary for every file
+- 📶 **Share a site over the LAN** with your phone or a colleague's laptop, loopback URLs in the page rewritten so the other device can follow them
+- 🔔 **Desktop notifications and a system tray** for failed jobs, slow routes, captured mail and the environment's state, without a tab open
+- 😴 **Idle-suspend**, which stops a quiet site's workers and brings them back on the next request, so a machine full of projects costs what you are actually using
 - 🌳 **First-class git worktrees** with auto-detected branch domains, per-worktree PHP and Node versions, and optional database isolation
 - 🤖 **MCP server** so Claude Code, Cursor, Copilot, and other assistants scaffold projects, run migrations, and manage services from chat
 - 🔒 **Rootless and daemonless**, Podman-native, no Docker required, dual-stack IPv4 and IPv6
@@ -67,6 +74,15 @@ PHP framework.
 - **[lerd-nixos](https://github.com/lerd-env/lerd-nixos)**, the NixOS flake. Packages
   the binary and ships the `configuration.nix` blocks the stack needs to run Lerd
   declaratively.
+- **[php](https://github.com/lerd-env/php)**, the static PHP builds behind the
+  native runtime on macOS: an interpreter per supported version, for sites served
+  straight on the host rather than in a container.
+- **[homebrew-lerd](https://github.com/lerd-env/homebrew-lerd)**, the Homebrew tap,
+  for `brew install lerd-env/lerd/lerd` on macOS and Linux.
+- **[lerd-deb](https://github.com/lerd-env/lerd-deb)**, the Debian and Ubuntu
+  packaging, published to the `ppa:lerd/lerd` Launchpad PPA.
+- **[lerd-rpm](https://github.com/lerd-env/lerd-rpm)**, the Fedora packaging,
+  published to COPR.
 
 ## Get involved
 
