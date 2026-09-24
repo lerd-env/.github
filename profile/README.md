@@ -6,6 +6,7 @@
 [![Docs](https://img.shields.io/badge/docs-lerd.sh-blue)](https://lerd.sh)
 [![Reddit](https://img.shields.io/badge/Reddit-r%2Flerd-ff2d20?logo=reddit)](https://reddit.com/r/lerd)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/ej33c5N9s)
+[![Sponsor](https://img.shields.io/badge/Sponsor-geodro-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/geodro)
 
 Open-source, Herd-like local PHP development for Linux and macOS, with Windows via
 WSL2 (beta). Nginx, PHP-FPM, and your services run as rootless Podman containers,
