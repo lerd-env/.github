@@ -46,7 +46,9 @@ and any custom PHP framework.
 | Profiler & debug window | ✅   | ✅           | ❌      | ❌   | ❌    | ❌   |
 | MCP server              | ✅   | ✅           | ❌      | ❌   | ❌    | ❌   |
 
-🧪 Windows runs through WSL2 and is in beta.
+🟡 DDEV runs on Docker by default and can also use Podman as an alternative runtime; Lerd is built exclusively for rootless Podman.
+
+🧪 Lerd's Windows support runs inside WSL2 and is currently **beta**, see the [Windows (WSL2) guide](https://lerd.sh/getting-started/wsl2). Laragon runs natively on Windows and has no Linux or macOS build, see [Laragon for Linux](https://lerd.sh/getting-started/laragon-linux) if that is what brought you here.
 
 ## What you get
 
